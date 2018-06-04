@@ -1,0 +1,120 @@
+nav {
+    color: #F5E9D3;
+    line-height: 200%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 3px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #1D1109;
+    background: linear-gradient(#162E3A, #F5E9D3);
+    background-color: #F5E9D3;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1D1109;
+}
+
+#aboutimg {
+    padding-left: 50px;
+}
+
+#contactimg {
+    padding-left: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    flex-basis: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.row {
+    display: flex;
+}
+
+body h2 {
+    padding-left: 115px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+    header {
+        background-size: cover;
+        background-position: right bottom;
+        color: #1D1109;
+    }
+    header h1 {
+        font-size: 500%;
+        color: #162E3A;
+        text-shadow: -1px 0 #D8C9BB, 0 1px #D8C9BB, 1px 0 #D8C9BB, 0 -1px #D8C9BB;
+        text-align: left;
+    }
+    .col {
+        flex-basis: 50%;
+    }
+    body h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+    body h3 {
+        padding-left: 0;
+        text-align: center;
+    }
+    #aboutimg {
+        float: right;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+    #contactimg {
+        float: right;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+    .col {
+        flex-basis: 33%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
