@@ -84,13 +84,13 @@ body h2 {
   body h2 {
     padding-left: 0;
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
   }
 
   body h3 {
     padding-left: 0;
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
   }
 
   #aboutimg {
